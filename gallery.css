@@ -1,0 +1,28 @@
+body{
+    background-color: #84a9ac;
+    font-family: sans-serif;
+}
+h1{
+  text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+#main{
+    display: flex;
+    margin: auto;
+    padding: 10px;
+}
+.inner{
+    margin: 10px;
+    border:1px solid gainsboro;
+    background-color: white;
+}
+.images{
+    height: 400px;
+    width: 420px;
+   
+}
+span{
+    font-size: 20px;
+    text-align: left;
+}

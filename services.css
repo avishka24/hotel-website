@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #84a9ac;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+div{
+    display: flex;
+    margin: auto;
+    
+}
+i{
+  margin-top: 100px;
+    margin-left: 50px;
+}
+.div-circle0{
+   margin: 30px;
+    height: 250px;
+    width: 250px;
+    background-color: #dddddd;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 0 5px gray;
+    animation: circle 2s 6;
+}
+
+.div-circle1{
+     margin: 30px;
+    height: 250px;
+    width:250px;
+    background-color: #fadcac;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 0 5px gray;
+    animation: circle 2s 6;
+}
+
+.div-circle2{
+    height: 250px;
+    width:250px;
+    background-color: #fbc1bc;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 0 5px gray;
+    margin: 30px;
+    animation: circle 2s 6;
+}
+
+.div-circle3{
+    height: 250px;
+    width: 250px;
+    background-color: #cedebd;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 0 5px gray;
+     margin: 30px;
+    animation: circle 2s 6;
+}
+
+.div-circle4{
+     margin: 30px;
+    height: 250px;
+    width: 250px;
+    background-color: #dfd3c3;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 0 5px gray;
+    animation: circle 2s 6;
+}
+
+.div-circle5{
+    height: 250px;
+    width: 250px;
+    background-color: #cbeaed;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 0 5px gray;
+     margin: 30px;
+    animation: circle 2s 6;
+    
+}
+
+.div-circle6{
+    height: 250px;
+    width:250px;
+    background-color: #fff48f;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 0 5px gray;
+    animation: circle 2s 6;
+}
+
+.div-circle7{
+    height: 250px;
+    width:250px;
+    background-color: #d9adad;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 0 0 5px gray;
+    animation: circle 2s 6;
+}
+@keyframes circle{
+    50%{
+        height: 280px;
+        width:280px;
+        box-shadow: 3px 3px 8px #84a9ac;
+    }
+}

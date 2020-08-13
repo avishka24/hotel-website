@@ -1,0 +1,165 @@
+body{
+    background-color: whitesmoke;
+    color: #204051;
+}
+/*about us*/
+.hotel-img{
+    height: 400px;
+    width: 450px;
+    float: left;
+    padding: 20px;
+    padding-right: 60px;
+}
+.text{
+    word-spacing: 10px;
+   
+    padding: 20px;
+}
+/*gallery*/
+.third{
+    background-color: #84a9ac;
+    margin: auto;
+    text-align: center;
+    
+}
+.cimage{
+    height: 600px;
+    width: 100%;
+    
+}
+.design
+{
+    width: 4%;
+    border: 6px dotted lightgray;
+    border-bottom: none;
+}
+/*feedback*/
+#lastdiv{
+  background-color: #fff;
+  padding: 30px;
+   clear: left;
+    padding-bottom: 70px;
+    margin: auto;
+}
+.tag{
+    font-size:30px;
+}
+.inputdiv{
+    padding: 30px;
+}
+ #line{
+       
+        font-size:20px;
+        font-family: sans-serif;
+        
+        text-align: left;
+        color: #204051;
+}
+
+    input{
+        background-color: transparent;
+        border-bottom:1px solid grey;
+        border-top:transparent;
+        border-right: transparent;
+        border-left:transparent;
+        width:350px;
+        height:50px;
+    
+       
+        transform: 0.5;
+    }
+    input:hover{
+        border-bottom: 2px solid #00adb5;
+        background-color: gainsboro;
+        opacity: 0.5;
+        
+    }
+    button{
+        border:1px solid transparent;
+       
+        margin: auto;
+        height:50px;
+        width:110px;
+        padding: 10px;
+        border-radius: 3px;
+        animation:button 2s infinite;
+        box-shadow: 0 0 5px black;
+        background-color:lightgray;
+    }
+@keyframes button{
+    50%{
+     background-color: black;
+        color:white;
+        box-shadow: 0 0 8px gray;
+    }
+    100%{
+         background-color: #84a9ac;
+    }
+}
+    
+    #msg{
+      background-color: transparent;
+        border-bottom:1px solid grey;
+        border-top:transparent;
+        border-right: transparent;
+        border-left:transparent;
+        margin: auto;
+        width:740px;
+}
+        #msg:hover{
+        border-bottom: 2px solid #204051;
+        background-color: gainsboro;
+        opacity: 0.5;
+    }
+
+/*contact us*/
+.av{
+    background-color: #84a9ac;
+    padding: 20px;
+}
+.av i{
+    display: inline-block;
+    padding:5px;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    border-radius: 50%;
+    color:#204051;
+    font-size:28px;
+    text-align: center;
+    margin: 15px;
+    animation:demo 4s infinite;
+    
+}
+.hr1{
+    width:40%;
+    margin: 0 0;
+}
+
+#en i:hover{
+    background-color:red;
+    color:white;
+}
+#fa i:hover{
+    background-color: dodgerblue;
+    color:white;
+}
+#tw i:hover{
+    background-color:deepskyblue;
+    color:white;
+}
+#in i:hover{
+   
+    background-image:linear-gradient(to bottom,deeppink,yellow,purple);
+    color:white;
+}
+#gi i:hover{
+    background-color: black;
+
+    color:white;
+}
+
+
+@keyframes demo{
+    50%{transform:  rotate(360deg);}
+}
