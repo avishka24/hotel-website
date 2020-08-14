@@ -87,6 +87,11 @@ background-color: #3b6978;
     color: white;
     text-align: center;
 }
+.back{
+    text-decoration: none;
+   margin: 5px;
+    color: #3b6978;
+}
 @media screen and (max-width:800px){
     #footer,#mainimage{
         width: 100%;

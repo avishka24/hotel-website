@@ -211,3 +211,8 @@ margin-bottom: 20px;
     }
     
 }
+.back{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
