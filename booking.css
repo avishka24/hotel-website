@@ -107,3 +107,38 @@ h3{
     float: right;
     margin-right: 40px;
 }
+@media screen and (max-width:800px){
+    #review,.head{
+width: 100%;
+   
+    margin: 5px;
+    }
+    .reviews1{
+margin: auto;
+        margin-bottom: 4%;
+    }
+    .reviews2{
+        margin:auto;
+    }
+    h1,h2{
+text-align: center;}
+    #happy{
+       margin-right: 30%;
+    }
+    .book{
+    align-items: center;
+        justify-content: center;
+        width: 50%;
+    }
+    input{
+width:100%;
+        margin: 10;
+    }
+    .buttonn{
+margin-left: 7%;}
+    h3{
+        margin-top: 10%;
+        margin-left: 0;
+        line-height: 2;
+    }
+}

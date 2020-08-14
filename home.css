@@ -32,6 +32,7 @@ body{
     clear: left;
     background-color: #84a9ac;
     display: flex;
+    flex-wrap: wrap;
  color: white;
     margin:150px 0 50px 0;
 }
@@ -190,4 +191,10 @@ body{
 }
 .texxtt{
     font-size: 25px;
+}
+@media screen and (max-width:800px){
+    #header,#lastdiv,#msg{
+        width: 100%;
+        
+    }
 }

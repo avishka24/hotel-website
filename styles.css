@@ -80,6 +80,7 @@ body{
    
     margin-left: 275px;
     display: flex;
+    flex-wrap: wrap;
 }
 .img1{
     height: 200px;
@@ -136,6 +137,7 @@ p{
 }
 #header{
     display: flex;
+    flex-wrap: wrap;
     background-color: #3b6978;
     color: white;
     margin:60px 0px;
@@ -158,6 +160,7 @@ p{
     position: relative;
     display: flex;
     padding: 20px;
+    flex-wrap: wrap;
     flex-direction: column;
    background-color: white;
     color: black;
@@ -166,7 +169,7 @@ p{
     width:240px;
     height: auto;
     transition: 2s;
-    flex-direction: column;
+    
     box-shadow: 0 0 5px gray;
 }
 .frstbox:hover{
@@ -174,6 +177,7 @@ p{
     background-color:#84a9ac;
     box-shadow: 0px 0px 10px grey; 
 }
+
 .heading{
     font-size:25px;
     line-height: 4;
@@ -213,4 +217,48 @@ p{
     color: #fff;
     text-align: center;
     
+}
+/*-------------------------*/
+@media screen and (max-width:959px){
+    #navbar,#imgbar,#footer,#rating{
+        width: 100%;
+       
+    }
+    #content{
+        width: 90%;
+    }
+    #menu{
+        width: 100%;
+        height: 50%;
+    }
+    #imgbar,#content{
+      margin: auto;
+    }
+    .h{
+text-align: center;}
+    .img1{
+        width: 100%;
+        height: 50%;
+    }
+    .inner-header{
+        width: 100%;
+    }
+    .search{
+        width:40%;
+        margin-left: 10%;
+        margin: 0.5%;
+        position: absolute;
+    }
+    .ser{
+        margin-top: 1.5%;
+       margin-left: 43%;
+    }
+    .leaf{
+        font-size: 20px;
+        margin-right: 20%;
+    }
+    
+    .book{
+        visibility: hidden;
+    }
 }

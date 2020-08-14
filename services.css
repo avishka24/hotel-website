@@ -15,9 +15,10 @@ h1{
 div{
     display: flex;
     margin: auto;
-    
+    flex-wrap: wrap;
+   margin-bottom: 20px;
 }
-i{
+.icon{
   margin-top: 100px;
     margin-left: 50px;
 }
@@ -29,7 +30,7 @@ i{
     border-radius: 50%;
     text-align: center;
     box-shadow: 0 0 5px gray;
-    animation: circle 2s 6;
+    animation: circle 2s 1;
 }
 
 .div-circle1{
@@ -40,7 +41,7 @@ i{
     border-radius: 50%;
     text-align: center;
     box-shadow: 0 0 5px gray;
-    animation: circle 2s 6;
+    animation: circle 2s 1;
 }
 
 .div-circle2{
@@ -51,7 +52,7 @@ i{
     text-align: center;
     box-shadow: 0 0 5px gray;
     margin: 30px;
-    animation: circle 2s 6;
+    animation: circle 2s 1;
 }
 
 .div-circle3{
@@ -62,7 +63,7 @@ i{
     text-align: center;
     box-shadow: 0 0 5px gray;
      margin: 30px;
-    animation: circle 2s 6;
+    animation: circle 2s 1;
 }
 
 .div-circle4{
@@ -73,7 +74,7 @@ i{
     border-radius: 50%;
     text-align: center;
     box-shadow: 0 0 5px gray;
-    animation: circle 2s 6;
+    animation: circle 2s 1;
 }
 
 .div-circle5{
@@ -84,7 +85,7 @@ i{
     text-align: center;
     box-shadow: 0 0 5px gray;
      margin: 30px;
-    animation: circle 2s 6;
+    animation: circle 2s 1;
     
 }
 
@@ -93,19 +94,21 @@ i{
     width:250px;
     background-color: #fff48f;
     border-radius: 50%;
+    margin: 30px;
     text-align: center;
     box-shadow: 0 0 5px gray;
-    animation: circle 2s 6;
+    animation: circle 2s 1;
 }
 
 .div-circle7{
     height: 250px;
     width:250px;
+    margin: 30px;
     background-color: #d9adad;
     border-radius: 50%;
     text-align: center;
     box-shadow: 0 0 5px gray;
-    animation: circle 2s 6;
+    animation: circle 2s 1;
 }
 @keyframes circle{
     50%{
@@ -181,4 +184,30 @@ margin-right: 20px;
     border-top: 4px solid ;
     border-bottom:4px solid ;
     transform: skewY(-20deg);
+}
+@media screen and (max-width:800px){
+    div,#division{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .icon{
+        text-align: center;
+        font-size: 25px;
+        margin: 3%;
+    }
+    h1{
+        text-align: center;
+    }
+    input{
+        margin: 20px;
+    }
+    span{
+margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 1%;
+    }
+    
 }
