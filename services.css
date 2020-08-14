@@ -5,6 +5,13 @@ body{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
+#h{
+    text-align: center;
+    background-color: #e7dfd5;
+}
+h1{
+    text-align: center;
+}
 div{
     display: flex;
     margin: auto;
@@ -106,4 +113,72 @@ i{
         width:280px;
         box-shadow: 3px 3px 8px #84a9ac;
     }
+}
+h2{
+    margin-left: 50px;
+}
+#division{
+    margin-top: 50px;
+    background-color:#e7dfd5;
+}
+input{
+    height: 20px;
+    width:200px;
+}
+span{
+    background-color: #84a9ac;
+    color: white;
+font-family: bolder;
+}
+/*p{
+    margin-left: 50px;
+    position: absolute;
+}
+icon{
+    background-color:#3b6978;
+    color: white;
+    border-radius: 50%;
+}*/
+
+.av{
+   margin-right: 700px;
+    display: inline-block;
+    text-align: center;
+}
+.av a{
+    display:inline-block;
+    font-size: 30px;
+margin-right: 20px;
+    height:100px;
+    width:100px;
+    margin-bottom: 50px;
+    text-align: center;
+    line-height: -40;
+    transition:.4s linear;
+    
+    color:#3b6978;
+
+}
+.av a::before,.av a::after{
+    content: '';
+    position:fixed;
+    box-sizing: border-box;
+    height:100%;
+    width:100%;
+    text-align: center;
+    transition: .4s linear;
+    }
+.av a:hover{
+    transform: scale(.8);
+}
+.av a:hover::before{
+    border-left: 4px solid ;
+    border-right:4px solid ;
+    transform: skewX(20deg);
+}
+
+.av a:hover::after{
+    border-top: 4px solid ;
+    border-bottom:4px solid ;
+    transform: skewY(-20deg);
 }
